@@ -1,16 +1,62 @@
-# React + Vite
+ # Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Professional portfolio showcasing web and mobile projects built by Luigie Martin.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository contains a personal portfolio site built with Vite, React, and Tailwind CSS. It highlights several projects including OCR/geotagging tools, a productivity app, and a mobile queueing system.
 
-## React Compiler
+Key projects featured:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **LIGER — OCR / Geo‑tagging**: Image OCR and geotagging pipeline (Python/React). Repo: https://github.com/dxlmartin00/OCR-App
+- **SNAPCITE — Productivity**: Reference capture and citation tool (React). Repo: https://github.com/dxlmartin00/SnapCite
+- **SMARTQUEUE — Mobile App**: Cross‑platform queue management (Flutter). Repo: https://github.com/dxlmartin00/SmartQueue
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Frontend: React, Vite, Tailwind CSS
+- Mobile: Flutter (for SmartQueue)
+- Backend & tooling: Node.js, Supabase, Python (OCR pipelines)
+
+## Development (Windows)
+
+Open a terminal (CMD or PowerShell) in the project folder and run:
+
+```bash
+cd "c:\\MARTIN_Portfolio\\portfolio"
+npm install
+npm run dev
+```
+
+This starts the Vite development server (default: `http://localhost:5173`).
+
+## Build
+
+```bash
+npm run build
+```
+
+Build output will be placed in the `dist/` folder, ready for deployment.
+
+## Deployment
+
+Deploy the `dist/` folder to any static host (Netlify, Vercel, GitHub Pages, Surge). Vercel and Netlify integrate directly with GitHub for automatic deployments from `main`.
+
+## Contributing
+
+This repo is primarily a personal portfolio. If you'd like to suggest improvements or report issues, open a GitHub issue or send a pull request.
+
+## Contact
+
+- GitHub: https://github.com/dxlmartin00
+- Email: (add preferred contact email)
+
+---
+
+If you want, I can also:
+
+- add a polished project `projects` data file (`src/data/projects.js`),
+- optimize images and enable lazy-loading, or
+- create a `.gitignore` tailored for React/Vite projects and a recommended commit message template.
+
+Replace or customize any section — tell me what you prefer.
